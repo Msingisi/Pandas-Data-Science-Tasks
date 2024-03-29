@@ -17,5 +17,12 @@ excitement for their cups.
 * How does the range in number of reviews differ across all shops?
 * How does the number of reviews vary across each place type?
 
+## Data Validation
+The original data is 200 rows and 9 columns. The first thing I did was to remove rows that should be excluded according to the data set description. I first removed rows where the Review value was missing. This was 2 rows, leaving 198 rows of data. I also switched missing values in the Dine in option and Takeaway option with False. There were no values that were false originally so this correctly made these columns True/False values.
+
+## Data Discovery and Visualization
+
+![alt text](https://github.com/Msingisi/Pandas-Data-Science-Tasks/blob/main/images/%23%20of%20reviews.png)
+
 
 

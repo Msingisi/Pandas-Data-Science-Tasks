@@ -42,11 +42,11 @@ Finally we want to combine the two pieces of information to see how the place ty
 
 When looking at just the reviews we excluded a single outlying value so that we could see the majority of the data. To show the impact, we can look at the range of number of reviews by place with this outlier in the data. In the graphic below you can see that this outlier is dominating the data and making comparison difficult. To make it easier to compare the rest of the data, we will remove this outlier.
 
-![alt text](https://github.com/Msingisi/Pandas-Data-Science-Tasks/blob/main/images/pllot_place_types_outliers.png)
+![alt text](https://github.com/Msingisi/Pandas-Data-Science-Tasks/blob/main/images/plot_place_types.png)
 
 After we remove the outlier we can focus on the main range of data. Although Coffee Shops do include the place types with the largest number of reviews, the interquartile range of the number of reviews is lower than Cafe and espresso bar types. This would suggest that the majority of the number of reviews may be lower than other types. However, this could also be an effect of having the largest number of locations, so the large number of low review locations brings the median down.
 
-![alt text](https://github.com/Msingisi/Pandas-Data-Science-Tasks/blob/main/images/plot_place_types.png)
+![alt text](https://github.com/Msingisi/Pandas-Data-Science-Tasks/blob/main/images/pllot_place_types_outliers.png)
 
 ## Recommendations
 

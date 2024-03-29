@@ -52,6 +52,11 @@ After we remove the outlier we can focus on the main range of data. Although Cof
 
 Based on all of the above, we would recommend that the team focus on coffee shops with reviews over 1000 to start, but also keeps an open mind to including cafes and espresso bars with high reviews. Further analysis should be done to understand if store type really does impact the number of reviews. The team should also consider including their cups in stores with lower reviews so that we can further analyze whether reviews has any impact over the popularity of the new cups.
 
+## Resources
+
+datacamp.com: https://app.datacamp.com/workspace/w/396b8323-75d7-4715-b390-fa43e386fb3c
+
+
 
 
 

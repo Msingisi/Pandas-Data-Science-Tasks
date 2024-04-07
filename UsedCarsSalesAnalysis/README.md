@@ -2,17 +2,30 @@
 
 ## Company Background
 
-Caffeine Form is a company creating coffee cups from recycled material. Although they
-started selling the products on their website last year, the results were not as good as they
-expected. To better enter the market, they decided to collaborate with local coffee shops to
-advertise and sell their coffee cups.
+Discount Motors is a used car dealership in the UK. They want to lead the way in used cars.
+Selling to customers who want the latest and greatest features, without the price tag of a
+brand new car.
+
+The UK Government has now announced that from 2030 all new cars will be required to be
+zero emissions. Although this won’t impact the used car market, it is expected that buyers will
+give more consideration to the future value of their cars. And petrol and diesel will likely have
+a much lower value after 2030.
 
 ## Task
 
-The marketing team is trying to come up with the best criteria to choose possible
-collaborators by investigating the local market. They think focusing on the places with the
-most reviews might have the biggest impact as more good reviews will create more
-excitement for their cups.
+I am sure you have heard that by 2030 we are only going to be able to sell Electric vehicles
+here in the UK. We want to run some campaigns to promote used Electric cars. We know
+that in the last year we haven’t sold any electric cars, so we want to know about hybrids to
+give us some ideas. We want to know anything you can tell us about how the sales differ
+between hybrid and other types from sales over the last six months.
+
+We know that there are less hybrid cars for sale. We think they are more expensive, so we
+need to make them more appealing. We think hybrid could be a good way to get buyers to
+think about more environmentally friendly cars.
+
+Our goal is to increase the number of sales of hybrid and electric cars next year.
+We want to get moving on this campaign as soon as possible to beat our competitors so
+the sooner you can share some insights the better.
 
 ## Customer Questions
 * What is the most common place type in this local market?
@@ -20,7 +33,16 @@ excitement for their cups.
 * How does the number of reviews vary across each place type?
 
 ## Data Validation
-The original data is 200 rows and 9 columns. The first thing I did was to remove rows that should be excluded according to the data set description. I first removed rows where the Review value was missing. This was 2 rows, leaving 198 rows of data. I also switched missing values in the Dine in option and Takeaway option with False. There were no values that were false originally so this correctly made these columns True/False values.
+The dataset contains 6738 rows and 9 columns before cleaning and validataion. I have validated all the columns against the criteria in the dataset table:
+* model: 18 models without missing values, same as the description. No cleaning is needed.
+* year: 23 unique values without missing values, from 1998 to 2020, same as the description. No cleaning is needed.
+* price: numeric values without missing values, same as the description. No cleaning is needed.
+* transmission: 4 categories without missing values, same as the description. No cleaning is needed.
+* mileage: numeric values, same as the description. No cleaning is needed.
+* fuelType: 4 categories without missing values, same as the description. No cleaning is needed.
+* mpg: numeric values without missing values, same as the description. No cleaning is needed.
+* engineSize: 16 possible values without missing values, same as the description. No cleaning is needed.
+After the data validation, the dataset contains 6738 rows and 9 columns without missing values.
 
 ## Data Discovery and Visualization
 

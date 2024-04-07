@@ -64,7 +64,7 @@ From the multiple boxplots below, we can see the price range in hybrid cars is m
 
 Petrol cars, the largest rival of the hybrid cars, majorly sold from 9000 to 12000. But as you can see from this graph, a few hybrid cars are also sold in this range.
 
-![alt text](https://github.com/Msingisi/Pandas-Data-Science Tasks/blob/main/UsedCarsSalesAnalysis/images/Distribution%20of%20price%20By%20Fuel%20Type.png)
+![alt text](https://github.com/Msingisi/Pandas-Data-Science-Tasks/blob/main/UsedCarsSalesAnalysis/images/Distribution%20of%20price%20By%20Fuel%20Type.png)
 
 ## How to Make the Hybrid more Attractive?
 

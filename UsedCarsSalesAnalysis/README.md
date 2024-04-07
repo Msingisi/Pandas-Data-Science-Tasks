@@ -46,33 +46,47 @@ After the data validation, the dataset contains 6738 rows and 9 columns without 
 
 ## Data Discovery and Visualization
 
-# What is the most common place type in this local market?
+# How the Sales Differ Between Hybrid Cars and Other Fuel Types??
 
-the graph below shows that there are four possible types of coffee stores included in this data. The most common type listed is a coffee shop, with cafe being second although with half the number of locations. This would suggest that the team should focus on distributing their new cups in coffee shops as they are more common.
+From the last 6 months' record, more than half of the used cars we sold are using petrol, followed by using hybrid. Also, we can see the number of cars sold in petrol is almost twice the number of cars sold in hybrid. Therefore, we can conclude that there is huge room to improve the sales of hybrid cars.
 
-![alt text](https://github.com/Msingisi/Pandas-Data-Science-Tasks/blob/main/images/place_types.png)
+![alt text](https://github.com/Msingisi/Pandas-Data-Science-Tasks/blob/main/UsedCarsSalesAnalysis/images/fuelType%20count.png)
 
-# How does the range in number of reviews differ across all shops?
+If we only look at hybrid cars. From the bar chart below, the best seller in car models is Yaris, followed by Auris and C-HR.
 
-As the marketing team thinks that the number of reviews a place gets will be important, Looking at all reviews, we can see that most places have had less than 1000 reviews. There are some outliers that get more than 3000 reviews but this is very uncommon. When looking for places that have high reviews the team should aim for locations having over 1000 reviews, but be aware they may need to work with 500 reviews or more.
+![alt text](https://github.com/Msingisi/Pandas-Data-Science-Tasks/blob/main/UsedCarsSalesAnalysis/images/Hybrid%20Cars.png)
 
-![alt text](https://github.com/Msingisi/Pandas-Data-Science-Tasks/blob/main/images/%23%20of%20reviews.png)
+We also want to compare the price of all the cars we sold last 6 months. I was looking at the distribution of price. The majority of used cars sold last 6 months is less than 30000.
 
-# How does the number of reviews vary across each place type?
+![alt text](https://github.com/Msingisi/Pandas-Data-Science-Tasks/blob/main/UsedCarsSalesAnalysis/images/Distribution%20of%20price.png)
 
-Finally we want to combine the two pieces of information to see how the place type impacts number of reviews. So far coffee shops with over 1000 reviews would be ideal but we need to look at the two variables together to see if this is realistic.
+From the multiple boxplots below, we can see the price range in hybrid cars is more significant than other fuel types. The majority of the price of a hybrid car range from 13000 to 21000, which is higher than petrol and diesel.
 
-When looking at just the reviews we excluded a single outlying value so that we could see the majority of the data. To show the impact, we can look at the range of number of reviews by place with this outlier in the data. In the graphic below you can see that this outlier is dominating the data and making comparison difficult. To make it easier to compare the rest of the data, we will remove this outlier.
+Petrol cars, the largest rival of the hybrid cars, majorly sold from 9000 to 12000. But as you can see from this graph, a few hybrid cars are also sold in this range.
 
-![alt text](https://github.com/Msingisi/Pandas-Data-Science-Tasks/blob/main/images/plot_place_types.png)
+![alt text](https://github.com/Msingisi/Pandas-Data-Science Tasks/blob/main/UsedCarsSalesAnalysis/images/Distribution%20of%20price%20By%20Fuel%20Type.png)
 
-After we remove the outlier we can focus on the main range of data. Although Coffee Shops do include the place types with the largest number of reviews, the interquartile range of the number of reviews is lower than Cafe and espresso bar types. This would suggest that the majority of the number of reviews may be lower than other types. However, this could also be an effect of having the largest number of locations, so the large number of low review locations brings the median down.
+## How to Make the Hybrid more Attractive?
 
-![alt text](https://github.com/Msingisi/Pandas-Data-Science-Tasks/blob/main/images/pllot_place_types_outliers.png)
+Since the Hybrid models are more expensive than other types on average, we will find different ways to attract customers. From the multiple boxplots below, Prius, Yaris and Auris have records of selling lower than 10000 GBP in the last 6 months, which is competitive with the petrol cars. Therefore, for people concerned about price, we should make these three models our major campaign car models.
 
-## Recommendations
+![alt text](https://github.com/Msingisi/Pandas-Data-Science-Tasks/blob/main/UsedCarsSalesAnalysis/images/Range%20Of%20Price%20By%20Used%20Car%20Model%20(Hybrid%20Cars%20Only).png)
 
-Based on all of the above, we would recommend that the team focus on coffee shops with reviews over 1000 to start, but also keeps an open mind to including cafes and espresso bars with high reviews. Further analysis should be done to understand if store type really does impact the number of reviews. The team should also consider including their cups in stores with lower reviews so that we can further analyze whether reviews has any impact over the popularity of the new cups.
+## Business Metrics
+Since our goal is to increase the number of sales of hybrid and electric cars next year, I would recommend we use the percentage of hybrid and electric cars in total number of used cars sold last 6 months as our metric.
+
+Based on our last 6 month data, 30% of the used cars sold are hybrid and electric cars. Therefore, if this number is increasing next 6 month, it indicates very good sign to achieve our goal.
+
+
+## Recommendation
+For the following weeks, I would recommend we can focus on the following steps:
+Using key metrics to monitor whether there is a strong sign to see the sales will increase.
+To implement the campaign as soon as possible, we should smartly promote the hybrid models in the market:
+* Less expensive models -Prius, Yaris and Auris model
+* Stay on top of the current electric and hybrid car markets so that the newest information can be integrated in the campaign.
+* Data Collection for in-depth analysis
+* Improve data quality - what the other fuel type means?
+* New related data - Using different fuel types in the same car model to compare eco-friendly cars and other fuel types
 
 ## Resources
 
